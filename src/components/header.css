@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	border-size: border-box;
+}
+
+header{
+	background-color:  #34465d;
+
+}
+
+.container{
+	display: grid;
+
+	
+	grid-template-columns: auto 1fr;
+	background-color: #2c3e50;
+	color:white;
+	font-family: bold;
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+.ul-container{
+	display: grid;
+	
+	grid-template-columns: repeat(3,1fr);
+	list-style: none;
+	align-self: center;
+	text-align: center;
+	
+}
